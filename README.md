@@ -1,4 +1,4 @@
-# ESP 32 minimal board
+# ESP32 minimal board
 
 For use with one of these PRC Uart adapters...
 
@@ -7,6 +7,10 @@ For use with one of these PRC Uart adapters...
 # Status
 
 Not Tested
+
+# Ref
+
+Inspired by  [this thing](https://electronoobs.com/eng_arduino_tut172.php)
 
 # License
 
