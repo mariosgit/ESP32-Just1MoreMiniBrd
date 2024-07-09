@@ -42,7 +42,7 @@
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(pcbplotparams
-			(layerselection 0x00010fc_ffffffff)
+			(layerselection 0x00210fc_ffffffff)
 			(plot_on_all_layers_selection 0x0000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions yes)
@@ -1352,7 +1352,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R1"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "48d6b31d-80bd-4798-8fbd-5bb3b8824fdf")
@@ -1516,7 +1516,7 @@
 			(uuid "9c630c0f-b38f-4952-aa32-65098509c21c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "51e43cf4-75e3-4c0a-9fd4-34e0b074eea8")
 			(effects
@@ -1971,7 +1971,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C2"
-			(at 0 -1.43 270)
+			(at 0 -1.43 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "0aeee44c-77a7-446e-bd08-9126a0f1a4ab")
@@ -1983,7 +1983,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at -0.5 -1.5 270)
+			(at -0.5 -1.5 -90)
 			(layer "F.SilkS")
 			(uuid "dfec0c58-2597-41f0-a7f3-174059811ad2")
 			(effects
@@ -2135,7 +2135,7 @@
 			(uuid "43801d3c-0147-4767-8065-08b93730d8aa")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "b5b96d63-a8d8-43f3-9d62-415d4900e23e")
 			(effects
@@ -2812,9 +2812,10 @@
 				)
 			)
 		)
-		(property "Value" "FTDI+DTR"
-			(at -2.5 3.7 180)
+		(property "Value" "GND -  FTDI"
+			(at -2.059992 9.057335 180)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "e8adb3b8-e44a-4818-ad0d-681b5cc03422")
 			(effects
 				(font
@@ -3354,7 +3355,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R2"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "a055fab4-be17-4376-9aed-6a5979a0a350")
@@ -3518,7 +3519,7 @@
 			(uuid "32d5b9d5-cb04-4002-bcc5-f01b69675cdc")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "f45ba18e-23cd-4955-a27c-520b2d0ade73")
 			(effects
@@ -3565,7 +3566,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C1"
-			(at 0.5 1.5 270)
+			(at 0.5 1.5 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "973b87e3-e2f9-4b92-b2f4-609ad6dcbf8f")
@@ -3577,7 +3578,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 0 1.43 270)
+			(at 0 1.43 -90)
 			(layer "F.SilkS")
 			(uuid "4b9441b1-8c0b-447e-821e-36b3125ba17f")
 			(effects
@@ -3729,7 +3730,7 @@
 			(uuid "0ada3500-93bb-4e40-b92d-17abc1b74d9f")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "5b72e51e-cfe1-4413-97fa-6dbd2b2a7379")
 			(effects
@@ -3884,6 +3885,30 @@
 		(at 77.99 134.646267 90)
 		(layer "F.SilkS")
 		(uuid "2f99a943-aed6-4c28-9e8d-acc4bccd6c5e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND -  FTDI"
+		(at 83.709935 134.017286 0)
+		(layer "F.SilkS")
+		(uuid "8c7dc033-cb57-4bf4-89e5-a330930b5284")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "RTS"
+		(at 81 134 0)
+		(layer "F.SilkS")
+		(uuid "9fe9aebf-2bc9-4b4d-8728-76ce82ccfe6e")
 		(effects
 			(font
 				(size 1 1)
