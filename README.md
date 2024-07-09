@@ -6,7 +6,9 @@ For use with one of these PRC Uart adapters...
 
 # Status
 
-Not Tested
+Ok
+
+![realthing](./images/IMG_0887.png)
 
 # Ref
 
